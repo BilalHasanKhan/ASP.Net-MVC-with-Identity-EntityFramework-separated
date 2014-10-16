@@ -28,9 +28,9 @@ namespace IdentityTesting
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "1484086815200438",
+               appSecret: "96134ba9293f3d5afad0e1d4b8fe2525");
 
             //app.UseGoogleAuthentication();
         }
